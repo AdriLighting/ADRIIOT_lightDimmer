@@ -1,5 +1,4 @@
 #include "lightDimmer.h"
-#include <adri_tools_v2.h>
 
 #define MAX_MODULE 10
 
@@ -56,6 +55,9 @@ void lightDimmerClass::dim(int value){
 	analogWrite(_pin, _analogValue);
 	_status = true;
 	_nValue = 2;
+}
+void lightDimmerClass::getValue(int & value){
+	value = map(_analogValue,0,1024,100,0);
 }
 
 void lightDimmerClass::setStatus(boolean value){

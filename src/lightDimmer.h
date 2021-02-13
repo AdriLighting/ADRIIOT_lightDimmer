@@ -19,6 +19,7 @@
 	    void 	setPullup(boolean value);
 
 	    void	getStatus(boolean & ret);
+	    void	getValue(int & ret);
 
 	    void 	json(JsonObject & root);
 	    void 	domoticzJson(JsonObject & root);
