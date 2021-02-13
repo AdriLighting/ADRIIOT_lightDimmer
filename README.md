@@ -4,7 +4,6 @@
 Librairies
 <details>
 ADRIIOT_lightDimmer             = https://github.com/AdriLighting/ADRIIOT_lightDimmer
-
 ArduinoJson                     = https://github.com/bblanchon/ArduinoJson
 </details>
 Dependency Graph
